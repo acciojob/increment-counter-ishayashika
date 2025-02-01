@@ -1,6 +1,9 @@
 //your JS code here. If required.
 let btn=document.getElementById("incrementBtn");
+let count=document.getElementById("counter");
 btn.addEventListener("click", function(){
-	alert(counter.innerText.toString());
-	counter.innerText=parseInt(counter.innerText)+1;
+	count=parseInt(counter.innerText);
+	alert(count);
+	count+=1;
+	counter.innerText=count;
 })
